@@ -1,7 +1,7 @@
 # tryad &middot; [![Version](https://img.shields.io/npm/v/tryad.svg?style=flat-square&maxAge=3600)](https://www.npmjs.com/package/tryad) [![License](https://img.shields.io/npm/l/tryad.svg?style=flat-square&maxAge=3600)](https://www.npmjs.com/package/tryad) [![Travis CI](https://img.shields.io/travis/citycide/tryad.svg?style=flat-square&maxAge=3600)](https://travis-ci.org/citycide/tryad) [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square&maxAge=3600)](https://standardjs.com)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/citycide/tryad/master/.media/logo.svg" width="500" alt="tryad">
+  <img src="https://raw.githubusercontent.com/citycide/tryad/master/.media/logo.png" width="500" alt="tryad">
 </p>
 
 > Monadic mashup of Maybe & Either that represents a value, nothing, or an error.
