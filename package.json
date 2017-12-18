@@ -1,0 +1,52 @@
+{
+  "name": "tryad",
+  "version": "1.0.0",
+  "description": "Monadic mashup of Maybe & Either that represents a value, nothing, or an error.",
+  "license": "MIT",
+  "author": {
+    "name": "Bo Lingen",
+    "email": "lingenbw@gmail.com",
+    "url": "https://github.com/citycide"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/citycide/tryad.git"
+  },
+  "homepage": "https://github.com/citycide/tryad",
+  "bugs": "https://github.com/citycide/tryad/issues",
+  "main": "./dist/index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "standard \"dist/*.js\" \"tests/*.js\" | snazzy",
+    "build": "babel src -d dist",
+    "test": "ava",
+    "prepublishOnly": "npm run lint && npm test"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "monads",
+    "maybe",
+    "result",
+    "either",
+    "option",
+    "functional"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.35",
+    "@babel/core": "^7.0.0-beta.35",
+    "@babel/preset-env": "^7.0.0-beta.35",
+    "ava": "^0.24.0",
+    "param.macro": "^1.1.4",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  },
+  "ava": {
+    "files": [
+      "tests/**/*.js"
+    ]
+  }
+}

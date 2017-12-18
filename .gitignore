@@ -1,0 +1,13 @@
+# lock files
+yarn.lock
+package-lock.json
+
+# ide configurations
+.c9
+.idea
+.vscode
+
+# built files
+/dist
+
+node_modules
