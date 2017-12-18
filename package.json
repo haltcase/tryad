@@ -21,6 +21,7 @@
   "scripts": {
     "lint": "standard \"dist/*.js\" \"tests/*.js\" | snazzy",
     "build": "babel src -d dist",
+    "pretest": "npm run build",
     "test": "ava",
     "prepublishOnly": "npm run lint && npm test"
   },
